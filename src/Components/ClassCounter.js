@@ -4,6 +4,9 @@ class ClassCounter extends Component {
   state = {
     count: 0,
   };
+  //   componentDidUpdate() {
+  //     console.log(this.state.count);
+  //   }
   incrementer = () => {
     this.setState(
       prevState => ({ count: prevState.count + 1 }),
