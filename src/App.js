@@ -1,10 +1,10 @@
 import './App.css';
-import HookCounterOne from './Components/HookCounterOne';
+import MouseContainer from './Components/MouseContainer';
 
 function App() {
   return (
     <div className='App'>
-      <HookCounterOne />
+      <MouseContainer />
     </div>
   );
 }
