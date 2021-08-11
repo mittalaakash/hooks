@@ -1,18 +1,11 @@
-import './App.css';
-import ComponentC from './Components/ComponentC';
 import React from 'react';
-
-export const UserContext = React.createContext();
-export const NameContext = React.createContext();
+import './App.css';
+import CounterOne from './Components/CounterOne';
 
 function App() {
   return (
     <div className='App'>
-      <UserContext.Provider value='Aakash'>
-        <NameContext.Provider value='Mittal'>
-          <ComponentC />
-        </NameContext.Provider>
-      </UserContext.Provider>
+      <CounterOne />
     </div>
   );
 }
