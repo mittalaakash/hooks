@@ -1,12 +1,12 @@
 import React from 'react';
 
 import './App.css';
-import DataFetchingTwo from './Components/DataFetchingTwo';
+import Counter from './Components/Counter';
 
 function App() {
   return (
     <div className='App'>
-      <DataFetchingTwo />
+      <Counter />
     </div>
   );
 }
