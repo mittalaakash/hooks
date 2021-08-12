@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import FocusInput from './Components/FocusInput';
+import HookTimer from './Components/HookTimer';
 
 function App() {
   return (
     <div className='App'>
-      <FocusInput />
+      <HookTimer />
     </div>
   );
 }
