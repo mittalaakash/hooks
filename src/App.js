@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import DocumentTitle from './Components/DocumentTitle';
+import Check from './Components/checkAll';
 
 function App() {
   return (
     <div className='App'>
-      <DocumentTitle />
+      <Check />
     </div>
   );
 }
